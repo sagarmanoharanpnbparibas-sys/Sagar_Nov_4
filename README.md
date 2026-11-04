@@ -2,20 +2,6 @@
 
 import { test, expect, Page, TestInfo } from '@playwright/test';
 
-/* =====================================================================
- * ONE-FILE MEGA SUITE (no extra installs, no config changes)
- *
- * HOW TO USE:
- *   1. Open  tests/google-title.spec.ts  in VS Code
- *   2. Select all (Ctrl+A) and paste this whole file over it, then save
- *   3. Run:  npx playwright test tests/google-title.spec.ts --project=chromium
- *   4. Report: npx playwright show-report
- *
- * PART A: Google title tests
- * PART B: Full automationexercise.com journey (random user, cart,
- *         checkout, contact form, etc.) with a screenshot at every step
- * ===================================================================== */
-
 // Settings applied inside this file only, so playwright.config.ts stays untouched
 test.use({
   screenshot: 'on',
